@@ -1,0 +1,30 @@
+.signin__page {
+  display: grid;
+  margin: auto;
+  background-color: #fff;
+  width: 50vw;
+  margin-top: 50px;
+  border-radius: 10px;
+  padding: 20px;
+
+  @media #{$mobile_device} {
+    width: 90vw;
+  }
+
+  .signin__button {
+    background-color: #10b301 !important;
+    color: #fff;
+    &:hover {
+      background-color: darken($color: #10b301, $amount: 5%) !important;
+      color: #f1f2f4;
+    }
+  }
+  .signup__button {
+    background-color: #1d4354 !important;
+    color: #fff;
+    &:hover {
+      background-color: darken($color: #1d4354, $amount: 5%) !important;
+      color: #f1f2f4;
+    }
+  }
+}
