@@ -7,8 +7,8 @@ import { useForm } from "react-hook-form";
 import axios from '../store/axios'
 
 function Signin({history}) {
-    const [password, setPassword] = useState('');
-    const [username, setUsername] = useState('');
+    const [password, setPassword] = useState('qwe123456');
+    const [username, setUsername] = useState('admin');
     const [loading, setLoading] = useState(false);
     const { register, handleSubmit, errors } = useForm();
     const dispatch = useDispatch();
